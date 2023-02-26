@@ -25,9 +25,43 @@
   <link
     href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&family=Roboto:wght@400;500;700&display=swap"
     rel="stylesheet">
+
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-WXFTLTZ');</script>
+  <!-- End Google Tag Manager -->
+  <!-- Organization Schema -->
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "description": "A Digital Marketing Agency",
+      "url": "https://getsetsearch.com/",
+      "telephone": "+919036399950",
+      "sameAs": ["https://www.linkedin.com/company/get-set-search/","https://www.facebook.com/GetsetSearch"],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "LVS Gardenia Phase, Kithaganur ",
+        "addressLocality": "Bangalore",
+        "postalCode": "560036",
+        "addressCountry": "India"
+      }
+    }
+  </script>
+  <!-- End Organization Schema -->
 </head>
 
 <body id="top">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WXFTLTZ" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
   <!-- 
     - #HEADER
@@ -36,7 +70,9 @@
   <header class="header" data-header>
     <div class="container">
 
-      <a href="#" class="logo">GetSetSearch</a>
+      <a href="#" class="logo">
+        <img src="./assets/images/getsetsearch.png" alt="GetSetSearch" width="250">
+      </a>
 
       <nav class="navbar container" data-navbar>
         <ul class="navbar-list">
@@ -66,7 +102,8 @@
           </li>
 
           <li>
-            <a href="https://wa.me/+919036399950?text=Hi%20Team,%20I%20need%20know%20more%20about%20your%20SEO%20Services" class="btn btn-primary">Get Started</a>
+            <a href="https://wa.me/+919036399950?text=Hi%20Team,%20I%20need%20know%20more%20about%20your%20SEO%20Services"
+              class="btn btn-primary">Get Started</a>
           </li>
 
         </ul>
@@ -101,10 +138,12 @@
             <h1 class="h1 hero-title">We are available for marketing</h1>
 
             <p class="hero-text">
-              Get to the top of search rankings with our expert SEO strategies. Boost your online visibility and drive traffic.
+              Get to the top of search rankings with our expert SEO strategies. Boost your online visibility and drive
+              traffic.
             </p>
 
-            <a href="https://wa.me/+919036399950?text=Hi%20Team,%20I%20need%20know%20more%20about%20your%20SEO%20Services" class="btn btn-primary">Get Started</a>
+            <a href="https://wa.me/+919036399950?text=Hi%20Team,%20I%20need%20know%20more%20about%20your%20SEO%20Services"
+              class="btn btn-primary">Get Started</a>
 
           </div>
 
@@ -524,7 +563,8 @@
 
           <h2 class="h2 section-title">Are You Ready? Let's get to Work!</h2>
 
-          <a href="https://wa.me/+919036399950?text=Hi%20Team,%20I%20need%20know%20more%20about%20your%20SEO%20Services" class="btn btn-secondary">Get Started</a>
+          <a href="https://wa.me/+919036399950?text=Hi%20Team,%20I%20need%20know%20more%20about%20your%20SEO%20Services"
+            class="btn btn-secondary">Get Started</a>
 
         </div>
       </section>
@@ -678,37 +718,44 @@
             dolore magna
             aliqua.
           </p>
+          <div id="emailFormCard" class="card">
+            <div id="subscribeForm" class="subscribe">
+              <form name="gform" id="gform" enctype="text/plain" action="GOOGLE_FORM_URL" target="hidden_iframe"
+                onsubmit="submitted=true;" class="contact-form">
 
-          <form action="" class="contact-form">
+                <div class="input-wrapper">
+                  <input type="text" name="entry.789678253" id="entry.789678253" aria-label="name"
+                    placeholder="Your name*" required class="input-field">
 
-            <div class="input-wrapper">
-              <input type="text" name="name" aria-label="name" placeholder="Your name*" required class="input-field">
+                  <input type="email" name="entry.1941054151" id="entry.1941054151" aria-label="email"
+                    placeholder="Email address*" required class="input-field">
+                </div>
 
-              <input type="email" name="email_address" aria-label="email" placeholder="Email address*" required
-                class="input-field">
+                <div class="input-wrapper">
+                  <input type="text" name="entry.1222659067" id="entry.1222659067" aria-label="subject"
+                    placeholder="Subject" class="input-field">
+
+                  <input type="number" name="entry.138803365" id="entry.138803365" aria-label="phone"
+                    placeholder="Phone number" class="input-field">
+                </div>
+
+                <textarea name="entry.1213428937" id="entry.1213428937" aria-label="message"
+                  placeholder="Your message...*" required class="input-field"></textarea>
+
+                <!-- <div class="checkbox-wrapper">
+                  <input type="checkbox" name="terms_and_policy" id="terms" required class="checkbox">
+
+                  <label for="terms" class="label">
+                    Accept <a href="#" class="label-link">Terms of Services</a> and <a href="#"
+                      class="label-link">Privacy
+                      Policy</a>
+                  </label>
+                </div> -->
+                <input type="submit" class="btn btn-primary" value="Send Message">
+
+              </form>
             </div>
-
-            <div class="input-wrapper">
-              <input type="text" name="subject" aria-label="subject" placeholder="Subject" class="input-field">
-
-              <input type="number" name="phone" aria-label="phone" placeholder="Phone number" class="input-field">
-            </div>
-
-            <textarea name="message" aria-label="message" placeholder="Your message...*" required
-              class="input-field"></textarea>
-
-            <div class="checkbox-wrapper">
-              <input type="checkbox" name="terms_and_policy" id="terms" required class="checkbox">
-
-              <label for="terms" class="label">
-                Accept <a href="#" class="label-link">Terms of Services</a> and <a href="#" class="label-link">Privacy
-                  Policy</a>
-              </label>
-            </div>
-
-            <button type="submit" class="btn btn-primary">Send Message</button>
-
-          </form>
+          </div>
 
           <ul class="contact-list">
 
@@ -809,9 +856,31 @@
     <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
   </a>
 
+  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
 
+  <!-- 
+    - Google Form Integration
+  -->
+  <script type="text/javascript">
+    var Google_Entry_ID_Name = "entry.789678253";
+    var Google_Entry_ID_Email = "entry.1941054151";
+    var Google_Entry_ID_Subject = "entry.1222659067";
+    var Google_Entry_ID_Phone = "entry.138803365";
+    var Google_Entry_ID_YourMessage = "entry.1213428937";
+    // Put your Google Form Link Here  (Make sure to use correct link as documented)
+    var Google_Form_Link = "https://docs.google.com/forms/d/e/1FAIpQLSfRnF7IQdV9BtQ-y9dIHAFsIGRY0Ym281ujB59soFQaFYdhJA/formResponse?"
+  </script>
 
+  <!-- 
+    - Replace Vars js link
+  -->
+  <script src="./assets/js/replace-vars.js">
+  </script>
 
+  <!-- 
+    - Email Form js link
+  -->
+  <script type="text/javascript" src="./assets/js/email-form.js"></script>
 
   <!-- 
     - custom js link
